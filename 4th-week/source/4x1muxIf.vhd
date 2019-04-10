@@ -31,6 +31,22 @@ begin                                   --일반적으로전혀 의미없다.
         end if;                 --그러면 NULL을 유지하기위해 래치가 생김
     end process;
 
+
+    --case로
+
+    process(A,B,C,D,SEL)
+    begin
+        case SEL is
+            when "00" =>
+                Y <= A;
+            when "01" =>
+                Y <= B;
+            when "10" =>
+                Y <= C;
+            when others =>          --if문과 똑같이 안됨
+                Y <= D;
+        end case;
+    end process;
     
 
 
