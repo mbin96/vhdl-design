@@ -1,7 +1,7 @@
 ------------------------------
 library IEEE;
 use ieee.std_logic_1164.all;
-use ieee.std.logic-unsigned.all;
+use ieee.std_logic_unsigned.all;
 
 
 ENTITY test is                      --ENTITY <<entityName>> IS 
@@ -10,7 +10,7 @@ ENTITY test is                      --ENTITY <<entityName>> IS
             C : in std_logic;                        --회로선이 많아지면 인풋 아웃풋 보다는 기능성으로 묶어쓰곤함.
             D : in std_logic;
             SEL : in std_logic_vector (1 downto 0);
-            Y : out std_logic;
+            Y : out std_logic
         );
 end test;
 
@@ -30,24 +30,5 @@ begin                                   --일반적으로전혀 의미없다.
             Y <= D;             --NULL의 의미는 이전상태를 유지한다는 의미
         end if;                 --그러면 NULL을 유지하기위해 래치가 생김
     end process;
-
-
-    --case로
-
-    process(A,B,C,D,SEL)
-    begin
-        case SEL is
-            when "00" =>
-                Y <= A;
-            when "01" =>
-                Y <= B;
-            when "10" =>
-                Y <= C;
-            when others =>          --if문과 똑같이 안됨
-                Y <= D;
-        end case;
-    end process;
-    
-
 
 END behave; 

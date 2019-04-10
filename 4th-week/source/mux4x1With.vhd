@@ -2,9 +2,9 @@ library IEEE;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
 
-ENTITY test is
+entity test is
 
-    port(   
+    port(
         A   : in std_logic_vector (3 downto 0);
         B   : in std_logic_vector (3 downto 0);
         C   : in std_logic_vector (3 downto 0);
@@ -12,24 +12,16 @@ ENTITY test is
         SEL : in std_logic_vector (3 downto 0);
         Y   : in std_logic_vector (3 downto 0)
     );
-
+    
 end test;
 
-architecture behave OF text is
+architecture behave of test is
 begin
-
-    process(A, B, C, D, SEL)
-    begin
-        case SEL is
-            when "00"   =>    
-                Y <= A;
-            when "01"   =>    
-                Y <= B;
-            when "10"   =>    
-                Y <= C;
-            when others =>  
-                Y <= D;
-        end case;
-    end process;
     
+    with SEL select
+        Y   <=  A   when "00",
+                B   when "01",
+                C   when "10",
+                D   when others;
+
 end behave;
