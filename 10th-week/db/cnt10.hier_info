@@ -1,0 +1,15 @@
+|cnt10
+CLK => tempCNT[0].CLK
+CLK => tempCNT[1].CLK
+CLK => tempCNT[2].CLK
+CLK => tempCNT[3].CLK
+RST => tempCNT[0].ACLR
+RST => tempCNT[1].ACLR
+RST => tempCNT[2].ACLR
+RST => tempCNT[3].ACLR
+CNT[0] <= tempCNT[0].DB_MAX_OUTPUT_PORT_TYPE
+CNT[1] <= tempCNT[1].DB_MAX_OUTPUT_PORT_TYPE
+CNT[2] <= tempCNT[2].DB_MAX_OUTPUT_PORT_TYPE
+CNT[3] <= tempCNT[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

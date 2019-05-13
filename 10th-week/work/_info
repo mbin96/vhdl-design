@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.1
+Ecnt10
+Z0 w1557454203
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\mbin9\Documents\VScode\vhdl-design\10th-week
+Z6 8C:\Users\mbin9\Documents\VScode\vhdl-design\10th-week\source\cnt10_100hz.vhd
+Z7 FC:\Users\mbin9\Documents\VScode\vhdl-design\10th-week\source\cnt10_100hz.vhd
+l0
+L5
+VbZIbo]R4le]JV14a[;UX60
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1557454347.943000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\mbin9\Documents\VScode\vhdl-design\10th-week\source\cnt10_100hz.vhd|
+Z11 !s107 C:\Users\mbin9\Documents\VScode\vhdl-design\10th-week\source\cnt10_100hz.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+!s100 @_HGB_QJdVc6^cc8lj3Jk2
+!i10b 1
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 5 cnt10 0 22 bZIbo]R4le]JV14a[;UX60
+l18
+L14
+V6Fj4bWLUa9_5]<_fbb<hi2
+!s100 IbAH[BBn32`O4eE1;UPdj1
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!i10b 1
+Etb_cnt10
+Z14 w1557453873
+R1
+R2
+R3
+R4
+R5
+Z15 8C:/Users/mbin9/Documents/VScode/vhdl-design/10th-week/source/tb_cnt10_100hz.vhd
+Z16 FC:/Users/mbin9/Documents/VScode/vhdl-design/10th-week/source/tb_cnt10_100hz.vhd
+l0
+L5
+V`JAeda>`aEJAPXV`DNBSQ1
+!s100 [2DG7607_``YW77z::Ll=2
+R8
+32
+!i10b 1
+Z17 !s108 1557454348.103000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mbin9/Documents/VScode/vhdl-design/10th-week/source/tb_cnt10_100hz.vhd|
+Z19 !s107 C:/Users/mbin9/Documents/VScode/vhdl-design/10th-week/source/tb_cnt10_100hz.vhd|
+R12
+R13
+Atb
+R1
+R2
+R3
+R4
+Z20 DEx4 work 8 tb_cnt10 0 22 `JAeda>`aEJAPXV`DNBSQ1
+l20
+L8
+Z21 VlF^fAc;^feWXckk7;aZjB0
+Z22 !s100 0]zEW1c6VJTgUDgMBN1^U0
+R8
+32
+!i10b 1
+R17
+R18
+R19
+R12
+R13

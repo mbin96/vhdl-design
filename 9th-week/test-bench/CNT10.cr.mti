@@ -1,0 +1,24 @@
+C:/Users/mbin9/Documents/VScode/vhdl-design/9th-week/test-bench/source/cnt10.vhd {1 {vcom -work work -2002 -explicit C:/Users/mbin9/Documents/VScode/vhdl-design/9th-week/test-bench/source/cnt10.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity cnt10
+-- Compiling architecture behave of cnt10
+
+} {} {}} C:/Users/mbin9/Documents/VScode/vhdl-design/9th-week/test-bench/source/tb_cnt10.vhd {2 {vcom -work work -2002 -explicit C:/Users/mbin9/Documents/VScode/vhdl-design/9th-week/test-bench/source/tb_cnt10.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_cnt10
+-- Compiling architecture TB of tb_cnt10
+** Warning: [4] C:/Users/mbin9/Documents/VScode/vhdl-design/9th-week/test-bench/source/tb_cnt10.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] C:/Users/mbin9/Documents/VScode/vhdl-design/9th-week/test-bench/source/tb_cnt10.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] C:/Users/mbin9/Documents/VScode/vhdl-design/9th-week/test-bench/source/tb_cnt10.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}}
