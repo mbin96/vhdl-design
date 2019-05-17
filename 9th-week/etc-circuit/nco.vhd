@@ -7,7 +7,7 @@ port(
     CLK_IN  :   in std_logic;
     RST     :   in std_logic;
     N       :   in std_logic_vector(15 downto 0);
-    CLK_OUT :   out std_logic;
+    CLK_OUT :   out std_logic
     
 );
 end nco;
@@ -23,7 +23,7 @@ begin
         if RST = '0' then
             nco_register <= (others => '0');
         elsif CLK_IN = '1' and CLK_IN'event then 
-            nc```o_register <= nco_register + N;
+            nco_register <= nco_register + N;
         end if;
     end process;
 
