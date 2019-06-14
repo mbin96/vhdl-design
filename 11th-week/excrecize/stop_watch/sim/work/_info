@@ -1,0 +1,239 @@
+m255
+K3
+13
+cModel Technology
+dD:\vhdl_2019\20190517\sw_input\sim
+Ecnt
+Z0 w1558059036
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\vhdl_2019\20190517\stop_watch\sim
+Z6 8D:/vhdl_2019/20190517/stop_watch/src/cnt.vhd
+Z7 FD:/vhdl_2019/20190517/stop_watch/src/cnt.vhd
+l0
+L5
+VQ[Jdi:HZkF<6HQlJd[n5T3
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1558059896.442000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/vhdl_2019/20190517/stop_watch/src/cnt.vhd|
+Z11 !s107 D:/vhdl_2019/20190517/stop_watch/src/cnt.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+!s100 eOc`z2XVPce5Rgz2M9MF[3
+!i10b 1
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 3 cnt 0 22 Q[Jdi:HZkF<6HQlJd[n5T3
+l30
+L16
+VggWJLaKV4ij7Q9EmzZnlP1
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 FglWE@XV0z:h:cQ2fj;450
+!i10b 1
+Eseg_drv
+Z14 w1558059887
+R1
+R2
+R3
+R4
+R5
+Z15 8D:/vhdl_2019/20190517/stop_watch/src/seg_drv.vhd
+Z16 FD:/vhdl_2019/20190517/stop_watch/src/seg_drv.vhd
+l0
+L5
+V_3ilFCULl_kg>5:mzLcAQ1
+R8
+32
+Z17 !s108 1558059896.005000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/vhdl_2019/20190517/stop_watch/src/seg_drv.vhd|
+Z19 !s107 D:/vhdl_2019/20190517/stop_watch/src/seg_drv.vhd|
+R12
+R13
+!s100 `Z2z45;YV>`:l]5K?_1m20
+!i10b 1
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 7 seg_drv 0 22 _3ilFCULl_kg>5:mzLcAQ1
+l11
+L10
+VaV69UhlJoi=iPW0ao^AZi1
+R8
+32
+R17
+R18
+R19
+R12
+R13
+!s100 >JE^KHR=YS_1`2NS[G`[00
+!i10b 1
+Estate_m
+Z20 w1558054088
+R1
+R2
+R3
+R4
+R5
+Z21 8D:/vhdl_2019/20190517/stop_watch/src/state_m.vhd
+Z22 FD:/vhdl_2019/20190517/stop_watch/src/state_m.vhd
+l0
+L5
+V6AVW[cf9mUG=QgQ2n]gbi3
+R8
+32
+Z23 !s108 1558059895.818000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/vhdl_2019/20190517/stop_watch/src/state_m.vhd|
+Z25 !s107 D:/vhdl_2019/20190517/stop_watch/src/state_m.vhd|
+R12
+R13
+!s100 ;OFaZZ;9LkUJCdR2bFfOe2
+!i10b 1
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 7 state_m 0 22 6AVW[cf9mUG=QgQ2n]gbi3
+l19
+L14
+V:1n0M0DQJ;_E4FbMT7A?X3
+R8
+32
+R23
+R24
+R25
+R12
+R13
+!s100 YZ7aQ4lmBUOaJbRe3kg^O1
+!i10b 1
+Estop_watch_top
+Z26 w1558059132
+R1
+R2
+R3
+R4
+R5
+Z27 8D:/vhdl_2019/20190517/stop_watch/src/stop_watch_top.vhd
+Z28 FD:/vhdl_2019/20190517/stop_watch/src/stop_watch_top.vhd
+l0
+L5
+VF`i@]JTgY5;oE5ZSNfmil0
+R8
+32
+Z29 !s108 1558059896.660000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/vhdl_2019/20190517/stop_watch/src/stop_watch_top.vhd|
+Z31 !s107 D:/vhdl_2019/20190517/stop_watch/src/stop_watch_top.vhd|
+R12
+R13
+!s100 hmRIGC`R?9EfnczfXD=E_3
+!i10b 1
+Astruct
+R1
+R2
+R3
+R4
+DEx4 work 14 stop_watch_top 0 22 F`i@]JTgY5;oE5ZSNfmil0
+l60
+L16
+VB^S]<jPR1mQGG6j0jIQR@2
+!s100 o2O`F9nibQDaQ@X?>iFKa2
+R8
+32
+R29
+R30
+R31
+R12
+R13
+!i10b 1
+Esw_input
+Z32 w1558052362
+R1
+R2
+R3
+R4
+R5
+Z33 8D:/vhdl_2019/20190517/stop_watch/src/sw_input.vhd
+Z34 FD:/vhdl_2019/20190517/stop_watch/src/sw_input.vhd
+l0
+L5
+V;YE2JJ[fV^Tg341NMRb1k2
+R8
+32
+Z35 !s108 1558059896.208000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/vhdl_2019/20190517/stop_watch/src/sw_input.vhd|
+Z37 !s107 D:/vhdl_2019/20190517/stop_watch/src/sw_input.vhd|
+R12
+R13
+!s100 Je<?zmj[Lm^cY7h02och91
+!i10b 1
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 8 sw_input 0 22 ;YE2JJ[fV^Tg341NMRb1k2
+l16
+L12
+VHo?Z5DQFfA9GVI7Y^?1in3
+R8
+32
+R35
+R36
+R37
+R12
+R13
+!s100 :`EaC0<SZBCQo0Fc<DCd]0
+!i10b 1
+Etb_stop_watch_top
+Z38 w1558058819
+R1
+R2
+R3
+R4
+R5
+Z39 8D:/vhdl_2019/20190517/stop_watch/src/tb_stop_watch_top.vhd
+Z40 FD:/vhdl_2019/20190517/stop_watch/src/tb_stop_watch_top.vhd
+l0
+L5
+V:z@AH6lUPog@<_cm`3=iW3
+!s100 2h`Pd<]I`CSd3eOl8G1Xh0
+R8
+32
+!i10b 1
+Z41 !s108 1558059896.910000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/vhdl_2019/20190517/stop_watch/src/tb_stop_watch_top.vhd|
+Z43 !s107 D:/vhdl_2019/20190517/stop_watch/src/tb_stop_watch_top.vhd|
+R12
+R13
+Atb
+R1
+R2
+R3
+R4
+Z44 DEx4 work 17 tb_stop_watch_top 0 22 :z@AH6lUPog@<_cm`3=iW3
+l30
+L8
+Z45 VXd6aIQ^^mhD0nF4;PTkh80
+Z46 !s100 oj4X1k7;5fn?A74cLge1b2
+R8
+32
+!i10b 1
+R41
+R42
+R43
+R12
+R13

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri May 24 11:31:05 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : stop_watch_top
+Top-level Entity Name : stop_watch_top
+Family : Cyclone IV E
+Total logic elements : 97
+    Total combinational functions : 91
+    Dedicated logic registers : 47
+Total registers : 47
+Total pins : 32
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

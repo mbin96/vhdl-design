@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+dD:\vhdl_2019\20190510\cnt10_100hz\sim
+Esw_input
+Z0 w1558052362
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\vhdl_2019\20190517\sw_input\sim
+Z6 8D:/vhdl_2019/20190517/sw_input/src/sw_input.vhd
+Z7 FD:/vhdl_2019/20190517/sw_input/src/sw_input.vhd
+l0
+L5
+V;YE2JJ[fV^Tg341NMRb1k2
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1558052773.590000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/vhdl_2019/20190517/sw_input/src/sw_input.vhd|
+Z11 !s107 D:/vhdl_2019/20190517/sw_input/src/sw_input.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+!s100 Je<?zmj[Lm^cY7h02och91
+!i10b 1
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 8 sw_input 0 22 ;YE2JJ[fV^Tg341NMRb1k2
+l16
+L12
+VHo?Z5DQFfA9GVI7Y^?1in3
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 :`EaC0<SZBCQo0Fc<DCd]0
+!i10b 1
+Etb_sw_input
+Z14 w1558052670
+R1
+R2
+R3
+R4
+R5
+Z15 8D:/vhdl_2019/20190517/sw_input/src/tb_sw_input.vhd
+Z16 FD:/vhdl_2019/20190517/sw_input/src/tb_sw_input.vhd
+l0
+L5
+VWnSgj94[i<QkfZ]fZWPzg1
+!s100 K:9PeYGh]`6;<fb]BKR`G0
+R8
+32
+!i10b 1
+Z17 !s108 1558052773.933000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/vhdl_2019/20190517/sw_input/src/tb_sw_input.vhd|
+Z19 !s107 D:/vhdl_2019/20190517/sw_input/src/tb_sw_input.vhd|
+R12
+R13
+Atb
+R1
+R2
+R3
+R4
+DEx4 work 11 tb_sw_input 0 22 WnSgj94[i<QkfZ]fZWPzg1
+l22
+L8
+V_dER=OegTWn]Gi8[O^bDQ2
+!s100 IT@Pgj[eeKiLA@Y_EFzG`1
+R8
+32
+!i10b 1
+R17
+R18
+R19
+R12
+R13

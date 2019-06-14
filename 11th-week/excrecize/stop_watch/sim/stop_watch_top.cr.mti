@@ -1,0 +1,61 @@
+D:/vhdl_2019/20190517/stop_watch/src/cnt.vhd {1 {vcom -work work -2002 -explicit D:/vhdl_2019/20190517/stop_watch/src/cnt.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity cnt
+-- Compiling architecture BEHAVE of cnt
+
+} {} {}} D:/vhdl_2019/20190517/stop_watch/src/sw_input.vhd {1 {vcom -work work -2002 -explicit D:/vhdl_2019/20190517/stop_watch/src/sw_input.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sw_input
+-- Compiling architecture BEHAVE of sw_input
+
+} {} {}} D:/vhdl_2019/20190517/stop_watch/src/state_m.vhd {1 {vcom -work work -2002 -explicit D:/vhdl_2019/20190517/stop_watch/src/state_m.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity state_m
+-- Compiling architecture BEHAVE of state_m
+
+} {} {}} D:/vhdl_2019/20190517/stop_watch/src/seg_drv.vhd {1 {vcom -work work -2002 -explicit D:/vhdl_2019/20190517/stop_watch/src/seg_drv.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity seg_drv
+-- Compiling architecture BEHAVE of seg_drv
+
+} {} {}} D:/vhdl_2019/20190517/stop_watch/src/stop_watch_top.vhd {1 {vcom -work work -2002 -explicit D:/vhdl_2019/20190517/stop_watch/src/stop_watch_top.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity stop_watch_top
+-- Compiling architecture STRUCT of stop_watch_top
+
+} {} {}} D:/vhdl_2019/20190517/stop_watch/src/tb_stop_watch_top.vhd {1 {vcom -work work -2002 -explicit D:/vhdl_2019/20190517/stop_watch/src/tb_stop_watch_top.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_stop_watch_top
+-- Compiling architecture TB of tb_stop_watch_top
+
+} {} {}}

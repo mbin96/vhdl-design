@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
--- DATE "05/10/2019 10:47:27"
+-- DATE "06/10/2019 10:32:48"
 
 -- 
 -- Device: Altera EP4CE115F29C7 Package FBGA780
@@ -80,7 +80,7 @@ ENTITY 	cnt10 IS
     PORT (
 	CLK : IN std_logic;
 	RST : IN std_logic;
-	CNT : OUT std_logic_vector(3 DOWNTO 0)
+	CNT : BUFFER std_logic_vector(3 DOWNTO 0)
 	);
 END cnt10;
 

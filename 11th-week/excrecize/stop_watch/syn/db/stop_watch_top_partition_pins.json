@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SEG_OUT_1S[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_1S[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_1S[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_1S[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_1S[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_1S[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_1S[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P1S[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P1S[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P1S[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P1S[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P1S[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P1S[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P1S[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P01S[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P01S[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P01S[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P01S[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P01S[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P01S[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_OUT_P01S[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RST",
+					"strict" : false
+				},
+				{
+					"name" : "START_SW",
+					"strict" : false
+				},
+				{
+					"name" : "STOP_SW",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
