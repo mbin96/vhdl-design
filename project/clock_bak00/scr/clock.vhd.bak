@@ -1,0 +1,234 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity clock is
+    port(
+        CLK             : in  std_logic;
+        C_ADJUST_LONG   : in  std_logic;
+        C_UP_LONG       : in  std_logic;
+        C_UP_SHORT      : in  std_logic;
+        C_MODE          : in  std_logic;
+        C_TIME_10H      : out std_logic_vector (3 downto 0); 
+        C_TIME_01H      : out std_logic_vector (3 downto 0);
+        C_TIME_10M      : out std_logic_vector (3 downto 0);
+        C_TIME_01M      : out std_logic_vector (3 downto 0);
+        C_TIME_10S      : out std_logic_vector (3 downto 0);
+        C_TIME_01S      : out std_logic_vector (3 downto 0);
+        C_LED           : out std_logic;
+        C_EN_ADJUST     : out std_logic
+    );
+end clock;
+
+architecture BEHAVE of clock is
+    --state constant define
+    constant STATE_RUN        : std_logic_vector (1 downto 0) := "00";
+    constant STATE_ADJUST_01H : std_logic_vector (1 downto 0) := "01";
+    constant STATE_ADJUST_01M : std_logic_vector (1 downto 0) := "10";
+    constant STATE_ADJUST_01S : std_logic_vector (1 downto 0) := "11";
+    --signal define
+    signal state  : std_logic_vector (1 downto 0);
+    signal tmp_cnt : std_logic_vector (3 downto 0);
+    signal tmp_time_01s : std_logic_vector (3 downto 0);
+    signal tmp_time_10s : std_logic_vector (3 downto 0);
+    signal tmp_time_01m : std_logic_vector (3 downto 0);
+    signal tmp_time_10m : std_logic_vector (3 downto 0);
+    signal tmp_time_01h : std_logic_vector (4 downto 0);
+begin
+
+    --state machine
+    process(CLK)
+	begin
+		if CLK = '1' and CLK'event then
+			if state = STATE_RUN then
+                --enable adjust state
+                if C_ADJUST_LONG = '1' then
+                    state <= STATE_ADJUST_01H;
+                    C_EN_ADJUST <= '1';
+                else
+                    --blink led
+                    if tmp_cnt = "0101" then
+                        C_LED <= '1';
+                    elsif tmp_cnt = "0000" then
+                        C_LED <= '0';
+                    end if;
+                end if;
+            --in Adjust state
+            else
+                if C_ADJUST_LONG = '1' then
+                        C_EN_ADJUST <= '0';
+                        state <= STATE_RUN;
+                --adjust state switch by mode button when state is not run
+                elsif C_MODE = '1' then
+                    if state = STATE_ADJUST_01S then
+                        state <= STATE_ADJUST_01H;
+                    else
+                        state <= state + 1;
+                    end if;
+                end if;
+            end if;
+        end if;
+    end process;
+
+    --base frequancy counter
+    process(CLK)
+	begin
+		
+		if CLK = '1' and CLK'event then
+            if state = STATE_RUN then
+                if tmp_cnt = "1001" then
+					tmp_cnt <= (others => '0');
+                else
+					tmp_cnt <= tmp_cnt + 1;
+				end if;
+			else
+				tmp_cnt <= (others => '0');
+			end if;
+		end if;
+	end process;
+
+    --01sec counter
+    process(CLK)
+    begin
+        if (CLK = '1' and CLK'event) then
+            --when adjust, count by button
+            if state = STATE_ADJUST_01S then
+                if (C_UP_SHORT = '1' or C_UP_LONG = '1') then
+                    tmp_time_10s <= "0000";
+                    tmp_time_01s <= "0000";
+                end if;
+            --when running
+            elsif (state = STATE_RUN) then
+                if  (tmp_cnt = "1001")  then
+                    if (tmp_time_01s = "1001") then
+                        tmp_time_01s <= "0000";
+                    else
+                        tmp_time_01s <= tmp_time_01s + 1;
+                    end if;
+                end if;
+            end if;
+        end if;
+    end process;
+
+    --10sec counter
+    process(CLK)
+    begin
+        if (CLK = '1' and CLK'event) then
+            if (state = STATE_RUN) then
+                --init 10s when 01s = 9 and baseclock = 9
+                if (tmp_time_01s = "1001" and tmp_cnt = "1001") then
+                    if (tmp_time_10s = "0101") then
+                        tmp_time_10s <= "0000";
+                    --count 10s when 01s=9 and falling edge
+                    else 
+                        tmp_time_10s <= tmp_time_10s + 1;
+                    end if;
+                end if;
+            end if;
+        end if;
+    end process;
+
+    
+    --01min counter
+    process(CLK)
+    begin
+        if (CLK = '1' and CLK'event) then
+            --when adjust, count by button
+            if state = STATE_ADJUST_01M then
+                if (C_UP_SHORT = '1' or C_UP_LONG = '1') then
+                    if (tmp_time_01m = "1001") then
+                        if tmp_time_10m = "0101" then
+                            tmp_time_01m <= "0000";
+                            tmp_time_10m <= "0000";
+                        else
+                            tmp_time_01m <= "0000";
+                            tmp_time_10m <= tmp_time_10m + 1;
+                        end if;
+                    else
+                        tmp_time_01m <= tmp_time_01m + 1;
+                    end if;
+                end if;
+            --when running
+            elsif (state = STATE_RUN) then
+                if (tmp_time_10s = "0101" and tmp_time_01s = "1001" and tmp_cnt = "1001")  then
+                    if (tmp_time_01m = "1001") then
+                        tmp_time_01m <= "0000";
+                    else
+                        tmp_time_01m <= tmp_time_01m + 1;
+                    end if;
+                end if;
+            end if;
+        end if;
+    end process;
+
+    --10min counter
+    process(CLK)
+    begin
+        if (CLK = '1' and CLK'event) then
+            if (state = STATE_RUN) then
+                --init 10s when 01s = 9 and baseclock = 9
+                if (tmp_time_01m = "1001" and tmp_time_10s = "0101" and tmp_time_01s = "1001" and tmp_cnt = "1001") then
+                    if (tmp_time_10m = "0101") then
+                        tmp_time_10m <= "0000";
+                    --count 10s when 01s=9 and falling edge
+                    else 
+                        tmp_time_10m <= tmp_time_10m + 1;
+                    end if;
+                end if;
+            end if;
+        end if;
+    end process;
+
+    --01H counter
+    process(CLK)
+    begin
+        if (CLK = '1' and CLK'event) then
+            --when adjust, count by button
+            if state = STATE_ADJUST_01H then
+                if (C_UP_SHORT = '1' or C_UP_LONG = '1') then
+                    if tmp_time_01h = "10111" then
+                        tmp_time_01h <= "00000";
+                    else
+                        tmp_time_01h <= tmp_time_01h + 1;
+                end if;
+            --when running
+            elsif (state = STATE_RUN) then
+                if (tmp_time_10m = "0101" and tmp_time_01m = "1001" and tmp_time_10s = "0101" and tmp_time_01s = "1001" and tmp_cnt = "1001")  then
+                    if (tmp_time_01h = "10111") then
+                        tmp_time_01h <= "00000";
+                    else
+                        tmp_time_01m <= tmp_time_01s + 1;
+                    end if;
+                end if;
+            end if;
+        end if;
+    end process;
+
+    --out signal
+    C_TIME_01S <= tmp_time_01s;
+    C_TIME_10S <= tmp_time_10s;
+    C_TIME_01M <= tmp_time_01m;
+    C_TIME_10M <= tmp_time_10m;
+
+    --decode hour signal
+    if (tmp_time_01h = "00000") then
+        C_TIME_01H <= '2';
+        C_TIME_10H <= '1';
+    elsif tmp_time_01h = "01000" then
+        C_TIME_01H <= '0';
+        C_TIME_10H <= '2';
+    elsif tmp_time_01h = "01100" then
+        C_TIME_01H <= '0';
+        C_TIME_10H <= '0';
+    elsif tmp_time_01h = "10110" then
+        C_TIME_01H <= '0';
+        C_TIME_10H <= '1';
+    elsif (tmp_time_01h'event) then
+        C_TIME_01H <= C_TIME_01H + 1;
+    else
+        C_TIME_01H <= C_TIME_01H;
+    end if;
+
+
+
+end BEHAVE;

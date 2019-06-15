@@ -1,4 +1,14 @@
-C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input.vhd
+C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_up_long.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_up_long.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_sw_input_up_long
+-- Compiling architecture TB of tb_sw_input_up_long
+
+} {} {}} C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -27,6 +37,36 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity tb_sw_input
 -- Compiling architecture TB of tb_sw_input
+
+} {} {}} C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_adj_long.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_adj_long.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sw_input_adj_long
+-- Compiling architecture BEHAVE of sw_input_adj_long
+
+} {} {}} C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_sw_input_adj_long
+-- Compiling architecture TB of tb_sw_input_adj_long
+
+} {} {}} C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_up_long.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_up_long.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sw_input_up_long
+-- Compiling architecture BEHAVE of sw_input_up_long
 
 } {} {}} C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/clock.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/clock.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
