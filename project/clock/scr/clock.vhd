@@ -56,7 +56,7 @@ begin
 			--in run state
             if state = STATE_RUN then
                 --enable adjust state
-                if C_ADJUST_LONG = '1' then
+                if C_ADJUST_LONG = '0' then
                     state <= STATE_ADJUST_01H;
                     C_EN_ADJUST <= '1';
                 else
@@ -70,11 +70,11 @@ begin
             --in Adjust state
             else
                 -- return to run state
-                if C_ADJUST_LONG = '1' then
+                if C_ADJUST_LONG = '0' then
                         C_EN_ADJUST <= '0';
                         state <= STATE_RUN;
                 --adjust_x state switch by mode button
-                elsif C_MODE = '1' then
+                elsif C_MODE = '0' then
                     if state = STATE_ADJUST_01S then
                         state <= STATE_ADJUST_01H;
                     else
@@ -123,7 +123,7 @@ begin
 		elsif (CLK = '1' and CLK'event) then
             --when adjust, init sec
             if state = STATE_ADJUST_01S then
-                if (C_UP_SHORT = '1' or C_UP_LONG = '1') then
+                if (C_UP_SHORT = '0' or C_UP_LONG = '0') then
                     tmp_time_01s <= "0000";
                 end if;
             --when running
@@ -147,7 +147,7 @@ begin
 		elsif (CLK = '1' and CLK'event) then
              --when adjust, init sec
             if state = STATE_ADJUST_01S then
-                if (C_UP_SHORT = '1' or C_UP_LONG = '1') then
+                if (C_UP_SHORT = '0' or C_UP_LONG = '0') then
                     tmp_time_10s <= "0000";
                 end if;
             elsif (state = STATE_RUN) then
@@ -174,14 +174,14 @@ begin
             --when adjust, count by button
             if state = STATE_ADJUST_01M then
                 --increase per 200ms
-                if (tmp_cnt_long_press = "00000" and C_UP_LONG = '1') then
+                if (tmp_cnt_long_press = "00000" and C_UP_LONG = '0') then
                     if (tmp_time_01m = "1001") then
                         tmp_time_01m <= "0000";
                     else
                         tmp_time_01m <= tmp_time_01m + 1;
                     end if;
                 --short press
-                elsif (C_UP_SHORT = '1') then
+                elsif (C_UP_SHORT = '0') then
                     if (tmp_time_01m = "1001") then
                         tmp_time_01m <= "0000";
                     else
@@ -209,7 +209,7 @@ begin
         elsif (CLK = '1' and CLK'event) then
             if state = STATE_ADJUST_01M then
                 --long press
-                if (tmp_cnt_long_press = "00000" and C_UP_LONG = '1') then
+                if (tmp_cnt_long_press = "00000" and C_UP_LONG = '0') then
                     if (tmp_time_01m = "1001") then
                         if (tmp_time_10m = "0101") then
                             tmp_time_10m <= "0000";
@@ -218,7 +218,7 @@ begin
                         end if;
                     end if;
                 --short press
-                elsif (C_UP_SHORT = '1') then
+                elsif (C_UP_SHORT = '0') then
                     if (tmp_time_01m = "1001") then
                         if (tmp_time_10m = "0101") then
                             tmp_time_10m <= "0000";
@@ -253,7 +253,7 @@ begin
             --when adjust, count by button
             if state = STATE_ADJUST_01H then
                 --long press
-                if (tmp_cnt_long_press = "00000" and C_UP_LONG = '1') then
+                if (tmp_cnt_long_press = "00000" and C_UP_LONG = '0') then
                     if (tmp_time_01h = "1001") then
                         tmp_time_01h <= "0000";
                     elsif (tmp_time_01h = "0011" and tmp_time_10h = "0010") then
@@ -262,7 +262,7 @@ begin
                         tmp_time_01h <= tmp_time_01h + 1;
                     end if;
                 --short press
-                elsif (C_UP_SHORT = '1') then
+                elsif (C_UP_SHORT = '0') then
                     if (tmp_time_01h = "1001") then
                         tmp_time_01h <= "0000";
                     elsif (tmp_time_01h = "0011" and tmp_time_10h = "0010") then
@@ -300,14 +300,14 @@ begin
             --when adjust
             if state = STATE_ADJUST_01H then
                 -- long press
-                if (tmp_cnt_long_press = "00000" and C_UP_LONG = '1') then
+                if (tmp_cnt_long_press = "00000" and C_UP_LONG = '0') then
                     if (tmp_time_01h = "1001") then
                         tmp_time_10h <= tmp_time_10h + 1;
                     elsif (tmp_time_01h = "0011" and tmp_time_10h = "0010") then
                             tmp_time_10h <= "0000";
                     end if;
                 --short press
-                elsif (C_UP_SHORT = '1') then
+                elsif (C_UP_SHORT = '0') then
                     if (tmp_time_01h = "1001") then
                         tmp_time_10h <= tmp_time_10h + 1;
                     elsif (tmp_time_01h = "0011" and tmp_time_10h = "0010") then

@@ -69,31 +69,28 @@ begin
 		wait for 100 ns;
 	end process;
 
-    C_ADJUST_LONG <= '0', 
-        '1' after 10050  ns,
-        '0' after 10250  ns,
-        '1' after 150050  ns,
-        '0' after 150250  ns;
-    C_UP_SHORT <= '0', 
-        '1' after 10350  ns, 
-        '0' after 10550  ns,
-        '1' after 130950 ns,
-        '0' after 131150 ns;
-    C_UP_LONG <= '0',
-        '1' after 20050 ns,
-        '0' after 130050 ns;
-    C_MODE <= '0',
-        '1' after 130550 ns,
-        '0' after 130750 ns,
-        '1' after 140550 ns,
-        '0' after 140750 ns,
-        
-        '1' after 141550 ns,
-        '0' after 141750 ns,
-        
-        '1' after 142550 ns,
-        '0' after 142750 ns;
-
+    C_ADJUST_LONG <= '1', 
+        '0' after 10050  ns,
+        '1' after 10250  ns,
+        '0' after 150050  ns,
+        '1' after 150250  ns;
+    C_UP_SHORT <= '1', 
+        '0' after 10350  ns, 
+        '1' after 10550  ns,
+        '0' after 130950 ns,
+        '1' after 131150 ns;
+    C_UP_LONG <= '1',
+        '0' after 20050 ns,
+        '1' after 130050 ns;
+    C_MODE <= '1',
+        '0' after 130550 ns,
+        '1' after 130750 ns,
+        '0' after 140550 ns,
+        '1' after 140750 ns,
+        '0' after 141550 ns,
+        '1' after 141750 ns,
+        '0' after 142550 ns,
+        '1' after 142750 ns;
 end TB;
 
 
