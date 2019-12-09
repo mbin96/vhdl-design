@@ -1,0 +1,191 @@
+{C:/Users/GODNG/Desktop/term project_vhdl/fusion/main_top.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/main_top.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity main_top
+-- Compiling architecture STRUCT of main_top
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/seg_drv.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/seg_drv.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity seg_drv
+-- Compiling architecture BEHAVE of seg_drv
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/tb_alarm.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/tb_alarm.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_alarm
+-- Compiling architecture TB of tb_alarm
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/tb_main_top.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/tb_main_top.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_main_top
+-- Compiling architecture TB of tb_main_top
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/clk_div.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/clk_div.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity clk_div
+-- Compiling architecture behave of clk_div
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/sw_input_up_long.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/sw_input_up_long.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sw_input_up_long
+-- Compiling architecture BEHAVE of sw_input_up_long
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/sw_adjust.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/sw_adjust.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sw_adjust
+-- Compiling architecture BEHAVE of sw_adjust
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/alarm.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/alarm.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity alarm
+-- Compiling architecture BEHAVE of alarm
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/stopwatch.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/stopwatch.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity stopwatch
+-- Compiling architecture BEHAVE of stopwatch
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/sw_input_adj_long.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/sw_input_adj_long.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sw_input_adj_long
+-- Compiling architecture BEHAVE of sw_input_adj_long
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/stopwatch_top.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/stopwatch_top.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity stopwatch_top
+-- Compiling architecture STRUCT of stopwatch_top
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/sw_input_in_sw.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/sw_input_in_sw.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sw_input_in_sw
+-- Compiling architecture BEHAVE of sw_input_in_sw
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/state.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/state.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity state
+-- Compiling architecture BEHAVE of state
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/fnd_mux.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/fnd_mux.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity FND_mux
+-- Compiling architecture BEHAVE of FND_mux
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/sw_input.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/sw_input.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sw_input
+-- Compiling architecture BEHAVE of sw_input
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/FND_DRIVER.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/FND_DRIVER.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity FND_DRIVER
+-- Compiling architecture BEHAVE of FND_DRIVER
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/top_sw.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/top_sw.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity top_sw
+-- Compiling architecture BEHAVE of top_sw
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/clock.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/clock.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity clock
+-- Compiling architecture BEHAVE of clock
+
+} {} {}} {C:/Users/GODNG/Desktop/term project_vhdl/fusion/state_m.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/GODNG/Desktop/term project_vhdl/fusion/state_m.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity state_m
+-- Compiling architecture BEHAVE of state_m
+
+} {} {}}

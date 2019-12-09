@@ -10,7 +10,6 @@ entity top_sw is
         SW2_IN       : in  std_logic;
         SW3_IN       : in  std_logic;
         ADJUST_LONG  : out std_logic;
-        ADJUST_SHORT : out std_logic;
         UP_LONG      : out std_logic;
         UP_SHORT     : out std_logic;
         MODE         : out std_logic
@@ -62,14 +61,14 @@ begin
         SW_CLR     => UP_LONG
     );
 
-    sw_input_adj: sw_input
+    sw_input_up: sw_input
     port map(    
         CLK        => CLK,
         RST        => RST,
-        SW_IN      => SW3_IN,
-        SW_CLR     => ADJUST_SHORT
+        SW_IN      => SW1_IN,
+        SW_CLR     => UP_SHORT
     );
-
+    
     sw_input_mode: sw_input
     port map(    
         CLK        => CLK,
@@ -78,13 +77,6 @@ begin
         SW_CLR     => MODE
     );
 
-    sw_input_up: sw_input
-    port map(    
-        CLK        => CLK,
-        RST        => RST,
-        SW_IN      => SW1_IN,
-        SW_CLR     => UP_SHORT
-    );
      
     
 

@@ -8,29 +8,72 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/mbin9/Documents/VScode/vhdl-design/10th-week
-Eclock
-Z0 w1560517599
+Eclk_div
+Z0 w1560836944
 Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z5 dC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/sim
-Z6 8C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/clock.vhd
-Z7 FC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/clock.vhd
+Z5 dC:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/sim
+Z6 8C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/clk_div.vhd
+Z7 FC:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/clk_div.vhd
+l0
+L5
+VMPC>A;5iRYgnD`B@P0X^D2
+!s100 :]i49ZYPNQQ<l4j^g1KRM2
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1560836952
+!i10b 1
+Z10 !s108 1560836952.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/clk_div.vhd|
+Z12 !s107 C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/clk_div.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 7 clk_div 0 22 MPC>A;5iRYgnD`B@P0X^D2
+l17
+L13
+VE>B6QKCdEz<0hUkG>0zQh1
+!s100 `ijF=f_>7M?ZJ4n::4Wn<0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eclock
+Z15 w1560776899
+R1
+R2
+R3
+R4
+R5
+Z16 8C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/clock.vhd
+Z17 FC:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/clock.vhd
 l0
 L5
 V9<I2VQ5liFzjZ_YO61m=f2
 !s100 kA3LUcS^hgz^d>3@8UmF62
-Z8 OV;C;10.5b;63
+R8
 32
-Z9 !s110 1560567508
+Z18 !s110 1560836130
 !i10b 1
-Z10 !s108 1560567508.000000
-Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/clock.vhd|
-Z12 !s107 C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/clock.vhd|
+Z19 !s108 1560836130.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/clock.vhd|
+Z21 !s107 C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/clock.vhd|
 !i113 1
-Z13 o-work work -2002 -explicit
-Z14 tExplicit 1 CvgOpt 0
+R13
+R14
 Abehave
 R1
 R2
@@ -43,34 +86,77 @@ VNlhOAzZ?C3Z_0`Qza`gQ=0
 !s100 =Rn3DJnHQ:zTna4h[LYcX3
 R8
 32
-R9
+R18
 !i10b 1
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 1
 R13
 R14
-Esw_input
-Z15 w1560563267
+Estate
+Z22 w1560834565
 R1
 R2
 R3
 R4
 R5
-Z16 8C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input.vhd
-Z17 FC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input.vhd
+Z23 8C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/state.vhd
+Z24 FC:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/state.vhd
+l0
+L5
+Vj2dG^FAJIi^NL3TgTVThC3
+!s100 FbaFW?T<IC63fKD^AzHk_3
+R8
+32
+R18
+!i10b 1
+R19
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/state.vhd|
+Z26 !s107 C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/state.vhd|
+!i113 1
+R13
+R14
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 5 state 0 22 j2dG^FAJIi^NL3TgTVThC3
+l33
+L28
+VzbiIEhJBD;`HP3R2m<YTX0
+!s100 ajm=;4aDh7]5ZcoDe7f`N1
+R8
+32
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R13
+R14
+Esw_input
+R15
+R1
+R2
+R3
+R4
+R5
+Z27 8C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/sw_input.vhd
+Z28 FC:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/sw_input.vhd
 l0
 L5
 VC:T:3bR6FgBRX511KF3UB1
 !s100 R28O_kUWOb;Sd609TPDH@2
 R8
 32
-R9
+R18
 !i10b 1
-R10
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input.vhd|
-Z19 !s107 C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input.vhd|
+R19
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/sw_input.vhd|
+Z30 !s107 C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/sw_input.vhd|
 !i113 1
 R13
 R14
@@ -86,34 +172,34 @@ Vh@L77_cl`<KQWJYW_>akc3
 !s100 INU0<iUDKc@bN:R[:FCMO2
 R8
 32
-R9
-!i10b 1
-R10
 R18
+!i10b 1
 R19
+R29
+R30
 !i113 1
 R13
 R14
 Esw_input_adj_long
-Z20 w1560563281
+R15
 R1
 R2
 R3
 R4
 R5
-Z21 8C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_adj_long.vhd
-Z22 FC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_adj_long.vhd
+Z31 8C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/sw_input_adj_long.vhd
+Z32 FC:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/sw_input_adj_long.vhd
 l0
 L5
 VJRX35>_c:b99gG:QjUl723
 !s100 a[Q^gHXIUQ`NkEj0b7X@j2
 R8
 32
-R9
+Z33 !s110 1560836131
 !i10b 1
-R10
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_adj_long.vhd|
-Z24 !s107 C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_adj_long.vhd|
+R19
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/sw_input_adj_long.vhd|
+Z35 !s107 C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/sw_input_adj_long.vhd|
 !i113 1
 R13
 R14
@@ -129,34 +215,34 @@ VQmGSgja=;lUQm=bmS0DQ82
 !s100 :NeZZUP5f4P<eKj_m:XF02
 R8
 32
-R9
+R33
 !i10b 1
-R10
-R23
-R24
+R19
+R34
+R35
 !i113 1
 R13
 R14
 Esw_input_long
-Z25 w1560562893
+Z36 w1560562893
 R1
 R2
 R3
 R4
-R5
-Z26 8C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_up_long.vhd
-Z27 FC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_up_long.vhd
+Z37 dC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/sim
+Z38 8C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_up_long.vhd
+Z39 FC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_up_long.vhd
 l0
 L5
 VJRL6><`b<1DfCf<`M=`Bh2
 !s100 QbO9iO``DZ?F@4FLnd6^C2
 R8
 32
-Z28 !s110 1560563018
+Z40 !s110 1560563018
 !i10b 1
-Z29 !s108 1560563018.000000
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_up_long.vhd|
-Z31 !s107 C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_up_long.vhd|
+Z41 !s108 1560563018.000000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_up_long.vhd|
+Z43 !s107 C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/sw_input_up_long.vhd|
 !i113 1
 R13
 R14
@@ -172,34 +258,34 @@ VMENE^TIk[85`SmaEMi4DA1
 !s100 JB5GHPNjA0Ij>leaN?VR=0
 R8
 32
-R28
+R40
 !i10b 1
-R29
-R30
-R31
+R41
+R42
+R43
 !i113 1
 R13
 R14
 Esw_input_up_long
-Z32 w1560563268
+R15
 R1
 R2
 R3
 R4
 R5
-R26
-R27
+Z44 8C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/sw_input_up_long.vhd
+Z45 FC:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/sw_input_up_long.vhd
 l0
 L5
 V>imUE`6XLH2KVA1oYVg0I1
 !s100 mG_KPiGgiKcO:1^=B:P^B3
 R8
 32
-R9
+R33
 !i10b 1
-R10
-R30
-R31
+Z46 !s108 1560836131.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/sw_input_up_long.vhd|
+Z48 !s107 C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/sw_input_up_long.vhd|
 !i113 1
 R13
 R14
@@ -215,34 +301,77 @@ VX8fU2>m96]RK5I`WbJah<0
 !s100 zNXbWFMZcn_mVY:f2P8PO0
 R8
 32
-R9
+R33
 !i10b 1
-R10
-R30
-R31
+R46
+R47
+R48
 !i113 1
 R13
 R14
-Etb_clock
-Z33 w1560519127
+Etb_clk_div
+Z49 w1560836739
 R1
 R2
 R3
 R4
 R5
-Z34 8C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_clock.vhd
-Z35 FC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_clock.vhd
+Z50 8C:\Users\mbin9\Documents\VScode\vhdl-design\project\clock\scr\tb_clk_div.vhd
+Z51 FC:\Users\mbin9\Documents\VScode\vhdl-design\project\clock\scr\tb_clk_div.vhd
+l0
+L5
+V7m0h^C_NLmlWOX0lTWBCA2
+!s100 :KfUhJnzQ3oA3m4z8J3i?3
+R8
+32
+R9
+!i10b 1
+R10
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\mbin9\Documents\VScode\vhdl-design\project\clock\scr\tb_clk_div.vhd|
+Z53 !s107 C:\Users\mbin9\Documents\VScode\vhdl-design\project\clock\scr\tb_clk_div.vhd|
+!i113 1
+R13
+R14
+Atb
+R1
+R2
+R3
+R4
+Z54 DEx4 work 10 tb_clk_div 0 22 7m0h^C_NLmlWOX0lTWBCA2
+l20
+L8
+Z55 Vn<?RMSf48U2=lSUZgG5;63
+Z56 !s100 E^bCVekVEB0VU]PbbzhKJ1
+R8
+32
+R9
+!i10b 1
+R10
+R52
+R53
+!i113 1
+R13
+R14
+Etb_clock
+Z57 w1560836553
+R1
+R2
+R3
+R4
+R5
+R50
+R51
 l0
 L5
 V3gkW_UcLkOWN;CQTg7o_E1
 !s100 gk]OQ:ok2JKXcZPS`YMN:2
 R8
 32
-R9
+Z58 !s110 1560836559
 !i10b 1
-R10
-Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_clock.vhd|
-Z37 !s107 C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_clock.vhd|
+Z59 !s108 1560836559.000000
+R52
+R53
 !i113 1
 R13
 R14
@@ -252,40 +381,83 @@ R2
 R3
 R4
 DEx4 work 8 tb_clock 0 22 3gkW_UcLkOWN;CQTg7o_E1
-l44
+l20
 L8
-V>;1^8_Z?z:I4]eK4UA2iO1
-!s100 19Ci>Y`MUdR:N37=b@2EZ3
+V=Ka3K=RbT0BCCCh1:`kk>0
+!s100 Cz==0TJTbH>;;T^BMABHM1
 R8
 32
-R9
+R58
 !i10b 1
-R10
-R36
-R37
+R59
+R52
+R53
 !i113 1
 R13
 R14
-Etb_sw_input
-Z38 w1560563266
+Etb_state
+Z60 w1560834057
 R1
 R2
 R3
 R4
 R5
-Z39 8C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input.vhd
-Z40 FC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input.vhd
+Z61 8C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_state.vhd
+Z62 FC:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_state.vhd
+l0
+L5
+V4_Te^=cdmL[iCA^PEal^70
+!s100 iK3`1QT7PgSl:D9jRLH>b0
+R8
+32
+R33
+!i10b 1
+R46
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_state.vhd|
+Z64 !s107 C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_state.vhd|
+!i113 1
+R13
+R14
+Atb
+R1
+R2
+R3
+R4
+DEx4 work 8 tb_state 0 22 4_Te^=cdmL[iCA^PEal^70
+l40
+L8
+VZhF_VHIFl6b_=jm5llcH=2
+!s100 H`5gi`meR@H;c6aXHgZ>D2
+R8
+32
+R33
+!i10b 1
+R46
+R63
+R64
+!i113 1
+R13
+R14
+Etb_sw_input
+R15
+R1
+R2
+R3
+R4
+R5
+Z65 8C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_sw_input.vhd
+Z66 FC:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_sw_input.vhd
 l0
 L5
 VfB=7TNULLYFjY6W:zGSl?2
 !s100 AGSm`KCBiY3aCWd2PIdnE0
 R8
 32
-R9
+R33
 !i10b 1
-R10
-Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input.vhd|
-Z42 !s107 C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input.vhd|
+R46
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_sw_input.vhd|
+Z68 !s107 C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_sw_input.vhd|
 !i113 1
 R13
 R14
@@ -301,34 +473,34 @@ V`L]9Pj[bDXQYBcMnWP5mA3
 !s100 ^Um@V`kI6TA^kEZ85U]:h1
 R8
 32
-R9
+R33
 !i10b 1
-R10
-R41
-R42
+R46
+R67
+R68
 !i113 1
 R13
 R14
 Etb_sw_input_adj_long
-Z43 w1560563258
+R15
 R1
 R2
 R3
 R4
 R5
-Z44 8C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd
-Z45 FC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd
+Z69 8C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd
+Z70 FC:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd
 l0
 L5
 VVJ;oa<6de9<AohR;796Oa0
 !s100 8D@fai<kL3g1Jc>6JgbXS0
 R8
 32
-Z46 !s110 1560567509
+R33
 !i10b 1
-Z47 !s108 1560567509.000000
-Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd|
-Z49 !s107 C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd|
+R46
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd|
+Z72 !s107 C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd|
 !i113 1
 R13
 R14
@@ -344,34 +516,34 @@ VCIWX]N;nOW[jalYnJJf2?1
 !s100 CXGX1=LFK[n8eaPZ_[]JZ1
 R8
 32
-R46
+R33
 !i10b 1
-R47
-R48
-R49
+R46
+R71
+R72
 !i113 1
 R13
 R14
 Etb_sw_input_long
-Z50 w1560562857
+Z73 w1560562857
 R1
 R2
 R3
 R4
-R5
-R44
-R45
+R37
+Z74 8C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd
+Z75 FC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd
 l0
 L5
 VAB9`i;2H[>Ajh1eH`^IJh3
 !s100 l>0X3J@?Zd_^NMCLe>Ud:1
 R8
 32
-Z51 !s110 1560563019
+Z76 !s110 1560563019
 !i10b 1
-Z52 !s108 1560563019.000000
-R48
-R49
+Z77 !s108 1560563019.000000
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd|
+Z79 !s107 C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_adj_long.vhd|
 !i113 1
 R13
 R14
@@ -387,11 +559,11 @@ V`K@j@kh2Wmjaz[h<`Q5X;3
 !s100 _RD<P^OXeX27keD[F9Ufg1
 R8
 32
-R51
+R76
 !i10b 1
-R52
-R48
-R49
+R77
+R78
+R79
 !i113 1
 R13
 R14
@@ -402,19 +574,19 @@ R2
 R3
 R4
 R5
-Z53 8C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_up_long.vhd
-Z54 FC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_up_long.vhd
+Z80 8C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_sw_input_up_long.vhd
+Z81 FC:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_sw_input_up_long.vhd
 l0
 L5
 V63>=LgUIa?HP6jf;9Bm4D0
 !s100 jRhJnMNQ[Y5fOBN[E]@HA1
 R8
 32
-R9
+R33
 !i10b 1
-R10
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_up_long.vhd|
-Z56 !s107 C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_sw_input_up_long.vhd|
+R46
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_sw_input_up_long.vhd|
+Z83 !s107 C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_sw_input_up_long.vhd|
 !i113 1
 R13
 R14
@@ -430,34 +602,34 @@ VJ;`:FJnEC8h]XAfld`7W90
 !s100 ]K@7d;QKiYzLZ9VQH<m[20
 R8
 32
-R9
+R33
 !i10b 1
-R10
-R55
-R56
+R46
+R82
+R83
 !i113 1
 R13
 R14
 Etb_top_sw
-Z57 w1560567457
+Z84 w1560832383
 R1
 R2
 R3
 R4
 R5
-Z58 8C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_top_sw.vhd
-Z59 FC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_top_sw.vhd
+Z85 8C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_top_sw.vhd
+Z86 FC:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_top_sw.vhd
 l0
 L5
 V7S::T>^@R]@IOhQU6mkng3
 !s100 dCPPZ;oTM3IX;WZT@cl^Q3
 R8
 32
-R46
+R18
 !i10b 1
-R47
-Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_top_sw.vhd|
-Z61 !s107 C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/tb_top_sw.vhd|
+R19
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_top_sw.vhd|
+Z88 !s107 C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/tb_top_sw.vhd|
 !i113 1
 R13
 R14
@@ -467,40 +639,40 @@ R2
 R3
 R4
 DEx4 work 9 tb_top_sw 0 22 7S::T>^@R]@IOhQU6mkng3
-l36
+l35
 L8
-VBca[RHKBhS6a0UGj7R<Xg1
-!s100 kG;16_8kQ5U4UX537lPHJ3
+VTIb:l8k]0Vdfef?<`H:NN3
+!s100 CaiRebegRjVoYcSF[i`]51
 R8
 32
-R46
+R18
 !i10b 1
-R47
-R60
-R61
+R19
+R87
+R88
 !i113 1
 R13
 R14
 Etop_sw
-Z62 w1560567447
+R84
 R1
 R2
 R3
 R4
 R5
-Z63 8C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/top_sw.vhd
-Z64 FC:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/top_sw.vhd
+Z89 8C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/top_sw.vhd
+Z90 FC:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/top_sw.vhd
 l0
 L5
-VQ2Ol6h9Z`zjdET>O8807S2
-!s100 X@NQ=lW]cRj6F1<Fl[H:<3
+V3H0^6H=_W<1hk?HVb9dJ`3
+!s100 h<mkJ?GVI?l`El09[QMZ^2
 R8
 32
-R46
+R18
 !i10b 1
-R47
-Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/top_sw.vhd|
-Z66 !s107 C:/Users/hyeon/Documents/vscode/vhdl-design/project/clock/scr/top_sw.vhd|
+R19
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/top_sw.vhd|
+Z92 !s107 C:/Users/mbin9/Documents/VScode/vhdl-design/project/clock/scr/top_sw.vhd|
 !i113 1
 R13
 R14
@@ -509,18 +681,18 @@ R1
 R2
 R3
 R4
-DEx4 work 6 top_sw 0 22 Q2Ol6h9Z`zjdET>O8807S2
-l47
-L20
-VWZaHfXOKa=V5T[YZR`AK]0
-!s100 HOnKNZlLLbMBQEK=;9`[30
+DEx4 work 6 top_sw 0 22 3H0^6H=_W<1hk?HVb9dJ`3
+l46
+L19
+VD^iB2C;S^oa[ePMYhJPHA2
+!s100 Wmo3FJOZmN^eS6[VX_Z6V1
 R8
 32
-R46
+R18
 !i10b 1
-R47
-R65
-R66
+R19
+R91
+R92
 !i113 1
 R13
 R14

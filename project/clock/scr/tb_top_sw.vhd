@@ -15,7 +15,6 @@ architecture TB of tb_top_sw is
             SW2_IN       : in  std_logic;
             SW3_IN       : in  std_logic;
             ADJUST_LONG  : out std_logic;
-            ADJUST_SHORT : out std_logic;
             UP_LONG      : out std_logic;
             UP_SHORT     : out std_logic;
             MODE         : out std_logic
@@ -44,7 +43,6 @@ begin
         SW2_IN       => SW2_IN      ,
         SW3_IN       => SW3_IN      ,
         ADJUST_LONG  => ADJUST_LONG ,
-        ADJUST_SHORT => ADJUST_SHORT,
         UP_LONG      => UP_LONG     ,
         UP_SHORT     => UP_SHORT    ,
         MODE         => MODE        

@@ -1,0 +1,141 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity stopwatch_top is
+port(	CLK				: in std_logic;						-- 1MHz
+		RST				: in std_logic;
+		SW_STARTSTOP	: in std_logic;
+		SW_ADJUST_0		: in std_logic;
+		S_LED	 		: out std_logic;
+		S_TIME_10M	: out std_logic_vector(3 downto 0);
+		S_TIME_01M	: out std_logic_vector(3 downto 0);
+		S_TIME_10S	: out std_logic_vector(3 downto 0);
+		S_TIME_01S	: out std_logic_vector(3 downto 0);
+		S_TIME_P1S	: out std_logic_vector(3 downto 0);
+		S_TIME_P01S : out std_logic_vector(3 downto 0));
+end stopwatch_top;
+
+architecture STRUCT of stopwatch_top is
+
+
+component sw_input_in_sw is
+port(	CLK		: in std_logic;
+		RST		: in std_logic;
+		SW_IN	: in std_logic;
+		SW_CLR	: out std_logic);
+end component;
+
+component sw_adjust is
+port(	CLK		: in std_logic;
+		RST		: in std_logic;
+		SW_IN	: in std_logic;
+		SW_CLR	: out std_logic);
+end component;
+
+signal sw_in_ss		: std_logic;
+signal sw_in_ad		: std_logic;
+signal sw_clr_ss	: std_logic;
+signal sw_clr_ad	: std_logic;
+
+component state_m is
+port(	CLK			: in std_logic;
+		RST			: in std_logic;
+		SW			: in std_logic;
+		STATE		: out std_logic_vector(1 downto 0)
+);
+end component;
+
+signal state : std_logic_vector(1 downto 0);
+
+component stopwatch is
+port(	CLK			: in std_logic;						-- 1MHz
+		RST			: in std_logic;
+		STATE		: in std_logic_vector(1 downto 0);
+		CNT_10M		: out std_logic_vector(3 downto 0);
+		CNT_1M		: out std_logic_vector(3 downto 0);
+		CNT_10S		: out std_logic_vector(3 downto 0);
+		CNT_1S		: out std_logic_vector(3 downto 0);
+		CNT_P1S		: out std_logic_vector(3 downto 0);
+		CNT_P01S	: out std_logic_vector(3 downto 0)
+	);
+end component;
+
+
+signal cnt_p01s	: std_logic_vector(3 downto 0);
+signal cnt_p1s	: std_logic_vector(3 downto 0);
+signal cnt_10m	: std_logic_vector(3 downto 0);
+signal cnt_1m	: std_logic_vector(3 downto 0);
+signal cnt_10s	: std_logic_vector(3 downto 0);
+signal cnt_1s	: std_logic_vector(3 downto 0);
+
+signal rst_ad : std_logic;
+
+begin
+sw_in_ss <= SW_STARTSTOP;
+sw_in_ad <= SW_ADJUST_0;
+rst_ad <= RST and sw_clr_ad;
+
+SW_ss : sw_input
+port map(	CLK		=> CLK,
+			RST		=> RST,
+			SW_IN	=> sw_in_ss,
+			SW_CLR	=> sw_clr_ss);
+
+SW_ad : sw_adjust
+port map(	CLK		=> CLK,
+			RST		=> RST,
+			SW_IN	=> sw_in_ad,
+			SW_CLR	=> sw_clr_ad);
+
+STATE_M_0 : state_m
+port map(	CLK			=> CLK,
+			RST			=> rst_ad,
+			SW 			=> sw_clr_ss,
+			STATE		=> state);
+
+CNT_0 : stopwatch
+port map(	CLK			=> CLK,
+			RST			=> rst_ad,
+			STATE		=> state,
+			CNT_10M		=> cnt_10m,
+			CNT_1M		=> cnt_1m,
+			CNT_10S		=> cnt_10s,
+			CNT_1S		=> cnt_1s,
+			CNT_P01S	=> cnt_p01s,
+			CNT_P1S		=> cnt_p1s
+		);
+
+process(CLK, RST)
+	begin
+        if RST = '0' then
+            S_LED <= '0';
+		elsif (state = "01") then
+			if cnt_p1s = "0101" then
+				S_LED <= '1';
+			elsif cnt_p1s = "0000" then
+				S_LED <= '0';
+			end if;
+		end if;
+end process;		
+			
+
+
+S_TIME_10M	<= cnt_10m;	
+S_TIME_01M	<= cnt_1m;
+S_TIME_10S	<= cnt_10s;
+S_TIME_01S	<= cnt_1s;	
+S_TIME_P01S <= cnt_p01s;	
+S_TIME_P1S	<= cnt_p1s;	
+		
+
+end STRUCT;
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,317 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "FND0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FND0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "FND0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FND0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FND0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FND0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FND0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FND1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FND1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "FND1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FND1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FND1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FND1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FND1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FND2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FND2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "FND2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FND2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FND2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FND2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FND2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FND3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FND3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "FND3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FND3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FND3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FND3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FND3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FND4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FND4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "FND4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FND4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FND4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FND4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FND4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FND5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FND5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "FND5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FND5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FND5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FND5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FND5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FND6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FND6[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FND6[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FND6[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FND7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FND7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "FND7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FND7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FND7[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FND7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG8",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[8]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[9]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[10]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[11]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[12]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[13]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[14]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[15]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[16]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[17]",
+					"strict" : false
+				},
+				{
+					"name" : "SW0",
+					"strict" : false
+				},
+				{
+					"name" : "TOGGLE_SW0",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "SW2",
+					"strict" : false
+				},
+				{
+					"name" : "SW1",
+					"strict" : false
+				},
+				{
+					"name" : "SW3",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
